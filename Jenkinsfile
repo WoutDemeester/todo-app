@@ -33,7 +33,7 @@ pipeline {
       steps {
         echo 'Checking if app is running...'
         sh 'sleep 5'
-        sh 'curl -f http://localhost:3000 || (echo "App dit not start!" && exit 1)'
+        sh 'curl -f http://host.docker.internal:3000 || (echo "App dit not start!" && exit 1)'
       }
     }
   }
