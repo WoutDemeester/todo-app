@@ -7,6 +7,7 @@ app.use(bodyParser.json());
 let todos = [
   { id: 1, task: 'Learn Jenkins', done: false },
   { id: 2, task: 'Build CI/CD pipeline', done: false }
+  { id: 3, task: 'Testen of CI/CD pipeline werkt', done: false }
 ];
 
 app.get('/', (req, res) => {
