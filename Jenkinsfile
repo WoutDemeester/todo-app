@@ -6,6 +6,10 @@ pipeline {
     CONTAINER_NAME = "todo-api-container"
   }
 
+  triggers {
+    githubPush()
+  }
+  
   stages {
     stage('Checkout') {
       steps {
