@@ -8,9 +8,7 @@ let todos = [
   { id: 1, task: 'Learn Jenkins', done: false },
   { id: 2, task: 'Build CI/CD pipeline', done: false },
   { id: 3, task: 'Testen of CI/CD pipeline werkt', done: false },
-  { id: 4, task: 'Als dit erstaat werkt pipeline', done: false },
-  { id: 5, task: 'Als dit erstaat werkt pipeline', done: false },
-  { id: 6, task: 'Nog eens een test', done: false}
+  { id: 4, task: 'Test voor demo', done: false }
 ];
 
 app.get('/', (req, res) => {
